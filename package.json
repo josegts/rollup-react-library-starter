@@ -1,5 +1,5 @@
 {
-  "name": "@jocgts/rollup-react-library-starter",
+  "name": "@josegts/rollup-react-library-starter",
   "version": "0.1.0",
   "description": "Template and quick-starter to create modern React libraries using Rollup.",
   "main": "dist/cjs/bundle.js",
@@ -9,7 +9,8 @@
     "dist"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/jocgts"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/josegts"
   },
   "scripts": {
     "build": "rimraf dist && rollup -c",
@@ -23,9 +24,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jocgts/rollup-react-library-starter.git"
+    "url": "git+https://github.com/josegts/rollup-react-library-starter.git"
   },
-  "author": "jocgts",
+  "author": "josegts",
   "license": "MIT",
   "keywords": [
     "react-template",
@@ -35,9 +36,9 @@
     "template"
   ],
   "bugs": {
-    "url": "https://github.com/jocgts/rollup-react-library-starter/issues"
+    "url": "https://github.com/josegts/rollup-react-library-starter/issues"
   },
-  "homepage": "https://jocgts.github.io/rollup-react-library-starter",
+  "homepage": "https://josegts.github.io/rollup-react-library-starter",
   "peerDependencies": {
     "antd": "^5.4.0",
     "react": ">=16.8.0",
@@ -84,5 +85,6 @@
     "storybook": "^7.0.2",
     "tslib": "^2.5.0",
     "typescript": "^5.0.4"
-  }
+  },
+  "private": false
 }
